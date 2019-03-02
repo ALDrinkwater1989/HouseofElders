@@ -6,6 +6,11 @@
     color: #fafafa;
 }
 
-.nav {
+.navbar {
     margin-bottom: 1%;
+}
+
+.bg-primary{
+    background-color: dimgray !important;
+
 }
