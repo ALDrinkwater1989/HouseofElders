@@ -2,8 +2,12 @@
     color: rgb(204, 201, 201);
 }
 
+.nav-item{
+    align-self: center;
+}
 .nav-link{
-    color: #fafafa;
+    color: #ffffff !important;
+    text-align: center;
 }
 
 .navbar {
