@@ -3,3 +3,49 @@
 @import url("font-color.css");
 @import url("nav.css");
 
+.logo {
+    background: url("../images/House\ of\ Elders\ logo\ -CMYK-30cm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    padding-bottom: 50px;
+    margin: 25px;
+
+}
+
+div .mobile-logo{
+    background: url("../images/HofE\ Spike\ icon\ -CMYK-10cm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    padding-bottom: 50px;
+    margin: 25px;
+    display: none;
+}
+
+
+@media(max-width: 480px){
+   .logo{
+      display: none;
+    }
+ .mobile-logo{
+        background: url("../images/HofE\ Spike\ icon\ -CMYK-10cm.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 280px;
+        padding-bottom: 50px;
+        margin: 25px;
+      
+    }
+}
+
+body{
+    padding-top: 70px;
+}
+
+.amazon-link{
+    margin-left: 5%
+}

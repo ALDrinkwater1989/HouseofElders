@@ -1,20 +1,100 @@
-.nav-link:hover{
-    color: rgb(204, 201, 201);
+@import url('https://fonts.googleapis.com/css?family=Exo|Ranga|Roboto|Slabo+27px: 100, 200, 300, 400, 500, 600, 700');
+
+
+.nav-border {
+    padding: 0;
 }
 
-.nav-item{
-    align-self: center;
+
+.navbar ul li {
+    padding-bottom: 20px;
+
 }
-.nav-link{
-    color: #ffffff !important;
+
+.navbar a {
+    color: #fff;
     text-align: center;
+
 }
+
 
 .navbar {
-    margin-bottom: 1%;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #525252;
+    border: 0;
+    z-index: 1;
+
 }
 
-.bg-primary{
-    background-color: dimgray !important;
+.navbar .navbar-brand {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Ranga";
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background: transparent;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: #FFFFFF;
+
+}
+
+.navbar-btn:hover {
+    background-color: #000;
+    border-color: #df4929;
+    color: #FFFFFF;
+}
+
+.collapse {
+    padding: 0;
+}
+
+
+
+
+/*--------------Style*/
+
+.styles {
+    height: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    display: inline;
+}
+
+
+.styles a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 30px;
+    font-family: "Ranga";
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+
 
 }
