@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Ranga|Roboto|Slabo+27px: 100, 200, 300, 400, 500, 600, 700');
+@import url("nav.css");
 @import url("backgrounds.css");
 @import url("alignment.css");
 @import url("font-color.css");
 @import url("nav.css");
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.amazon-link{
+    margin-left: 5%
+}
 
 .logo {
     background: url("../images/House\ of\ Elders\ logo\ -CMYK-30cm.jpg");
@@ -14,7 +26,7 @@
 
 }
 
-div .mobile-logo{
+.mobile-logo{
     background: url("../images/HofE\ Spike\ icon\ -CMYK-10cm.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -30,22 +42,15 @@ div .mobile-logo{
    .logo{
       display: none;
     }
- .mobile-logo{
+    .mobile-logo{
         background: url("../images/HofE\ Spike\ icon\ -CMYK-10cm.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 280px;
         padding-bottom: 50px;
-        margin: 25px;
-      
+      display: flex;
+      max-height: 200px;
     }
 }
 
-body{
-    padding-top: 70px;
-}
-
-.amazon-link{
-    margin-left: 5%
-}
