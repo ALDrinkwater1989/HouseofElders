@@ -1,6 +1,7 @@
 body{
-    background-color: black;
+    background-color:  #888D8F; 
 }
+
 
 .green-overlay{
     background-color: #5cc220;
@@ -26,9 +27,4 @@ background-color: #fafafa;
 
 .jumbotron{
     background: none;
-}
-
-.nav-background{
-    background-color: dimgray;
-
 }
