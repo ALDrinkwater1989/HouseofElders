@@ -1,100 +1,101 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Ranga|Roboto|Slabo+27px: 100, 200, 300, 400, 500, 600, 700');
 
-
-.nav-border {
-    padding: 0;
+nav{
+    display: flex;
+  justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: "Roboto",sans-serif;
+    background-color: 	#4A4F52; 
+    
 }
-
-
-.navbar ul li {
-    padding-bottom: 20px;
-
-}
-
-.navbar a {
-    color: #fff;
-    text-align: center;
-
-}
-
-
-.navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #525252;
-    border: 0;
-    z-index: 1;
-
-}
-
-.navbar .navbar-brand {
-    color: #FFFFFF;
-    font-size: 30px;
-    font-family: "Ranga";
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    color: #FFFFFF;
-    background: transparent;
-
-}
-
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-    color: white;
-}
-
-.navbar-btn {
-    border: 0;
-    border-radius: 16px;
-    width: 100px;
-    background-color: #f05f40;
-    color: #FFFFFF;
-
-}
-
-.navbar-btn:hover {
-    background-color: #000;
-    border-color: #df4929;
-    color: #FFFFFF;
-}
-
-.collapse {
-    padding: 0;
-}
-
-
-
-
-/*--------------Style*/
-
-.styles {
-    height: 40px;
-    padding-left: 0;
-    padding-right: 0;
-    display: inline;
-}
-
-
-.styles a {
-    width: 100%;
-    text-decoration: none;
-    color: #fafafa;
-    height: 30px;
-    font-family: "Ranga";
-    display: inline-block;
-    text-align: center;
+.nav-logo{
+    color: #5cc220;
     text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin-top: 10px;
+    letter-spacing: 5px;
+    font-size:20px;
+}
 
+.nav-links{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
 
+}
+.nav-links li{
+    list-style: none;
+}
 
+.nav-links a{
+    color: #5cc220;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size:12px; 
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    background-color: #5cc220;
+    transition: all 0.3s ease;
+
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+  .nav-links{
+      position: absolute;
+      right:0px;
+      height: 92vh;
+      top: 8vh;
+      background-color: 	#4A4F52; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li{
+      opacity: 0;
+  }
+
+  .burger{
+      display: block;
+      cursor: pointer;
+  }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle-ani .line1{
+transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle-ani .line2{
+   opacity: 0;
+}
+.toggle-ani .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
 }
