@@ -4,6 +4,7 @@
 @import url("alignment.css");
 @import url("font-color.css");
 @import url("nav.css");
+@import url("fonts.css");
 *{
     margin:0px;
     padding: 0px;
@@ -16,7 +17,7 @@
 }
 
 .logo {
-    background: url("../images/House\ of\ Elders\ logo\ -CMYK-30cm.jpg");
+    background: url("../images/House\ of\ Elders\ logo\ -CMYK.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
