@@ -20,13 +20,12 @@
 
 .fa-twitch{
     color: #6441a4;
-    padding-left: 20px;
+  
 }
 
 .fa-twitter-square{
     color: #55aded;
-    padding-left: 20px;
-    padding-right:20px
+
 }
 
 .bungie-logo{
@@ -57,11 +56,11 @@
 }
 
 .mobile-logo{
-    background: url("../images/HofE\ Spike\ icon\ -CMYK-10cm.jpg");
+    background: url("../images/hofespike1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 150px;
+    max-height: 50px;
     padding-bottom: 50px;
     margin: 25px;
     display: none;
@@ -76,14 +75,17 @@
       display: none;
     }
     .mobile-logo{
-        background: url("../images/HofE\ Spike\ icon\ -CMYK-10cm.jpg");
+        background: url("../images/hofespike1.jpg");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 300px;
+        background-size: contain;
+        min-height: 200px;
         padding-bottom: 50px;
-      display: flex;
-      max-height: 200px;
+        display: flex;
+      
+    }
+    .social-links li{
+        padding-bottom: 20px;
     }
 }
 
