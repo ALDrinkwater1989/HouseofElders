@@ -12,6 +12,28 @@
     
 }
 
+.social-links li a i{
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+}
+
+.fa-twitch{
+    color: #6441a4;
+    padding-left: 20px;
+}
+
+.fa-twitter-square{
+    color: #55aded;
+    padding-left: 20px;
+    padding-right:20px
+}
+
+.bungie-logo{
+    width: 100px;
+    height: 50px;
+}
+
 
 .amazon-link{
     margin-left: 10%;
