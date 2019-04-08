@@ -40,6 +40,11 @@
     .social-links li {
         padding-bottom: 20px;
     }
-
+    .bungie-logo {
+        background: url("../images/septagon-icon-logo-200x116.png");
+        width: 100px;
+        height: 50px;
+        right: 24px;
+    }
 
 }
