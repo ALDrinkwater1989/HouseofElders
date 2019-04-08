@@ -31,3 +31,16 @@
     padding-left: 10px;
     margin-bottom: 10px;
 }
+
+.center-align 
+{
+    margin-left: 100px;
+    align-items: center;
+    justify-content: stretch;
+}
+
+
+.admin-paragraph{
+    padding: 20px;
+
+}

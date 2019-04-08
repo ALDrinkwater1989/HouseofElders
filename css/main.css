@@ -5,116 +5,12 @@
 @import url("font-color.css");
 @import url("nav.css");
 @import url("fonts.css");
+@import url("logo.css");
+@import url("media.css");
+@import url("iframe.css");
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-.social-links li a i {
-    width: 40px;
-    height: 40px;
-    font-size: 50px;
-}
-
-.fa-twitch {
-    color: #6441a4;
-}
-
-.fa-twitter-square {
-    color: #55aded;
-}
-
-.bungie-logo {
-    width: 100px;
-    height: 50px;
-}
-
-.iframe-container {
-    overflow: hidden;
-    padding-top: 56.25%;
-    position: relative;
-  }
-  
-  .iframe-container iframe {
-     border: 0;
-     height: 100%;
-     left: 0;
-     position: absolute;
-     top: 0;
-     width: 100%;
-  }
-
-.center-align 
-{
-    margin-left: 100px;
-    align-items: center;
-    justify-content: stretch;
-}
-
-.admin-paragraph{
-    padding: 20px;
-
-}
-
-
-.logo {
-    background: url("../images/House\ of\ Elders\ logo\ -CMYK.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 150px;
-    padding-bottom: 50px;
-    margin: 25px;
-}
-
-.mobile-logo {
-    background: url("../images/hofespike1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 50px;
-    padding-bottom: 50px;
-    margin: 25px;
-    display: none;
-}
-
-.bungie-logo {
-    background: url("../images/septagon-icon-logo-200x116.png");
-}
-
-@media(max-width: 1200px) {
-    .logo {
-        display: none;
-    }
-    .mobile-logo {
-        background: url("../images/hofespike1.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        min-height: 200px;
-        padding-bottom: 50px;
-        display: flex;
-    }
-    .social-links li {
-        padding-bottom: 20px;
-    }
-}
-
-@media(max-width: 768px) {
-    .logo {
-        display: none;
-    }
-    .mobile-logo {
-        background: url("../images/hofespike1.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        min-height: 200px;
-        padding-bottom: 50px;
-        display: flex;
-    }
-    .social-links li {
-        padding-bottom: 20px;
-    }
 }
