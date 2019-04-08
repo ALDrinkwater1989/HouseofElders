@@ -1,0 +1,35 @@
+@media(max-width: 1200px) {
+    .logo {
+        display: none;
+    }
+    .mobile-logo {
+        background: url("../images/hofespike1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 200px;
+        padding-bottom: 50px;
+        display: flex;
+    }
+    .social-links li {
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .mobile-logo {
+        background: url("../images/hofespike1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 200px;
+        padding-bottom: 50px;
+        display: flex;
+    }
+    .social-links li {
+        padding-bottom: 20px;
+    }
+}
