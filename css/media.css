@@ -14,6 +14,7 @@
     .social-links li {
         padding-bottom: 20px;
     }
+
 }
 
 @media(max-width: 768px) {
@@ -29,7 +30,16 @@
         padding-bottom: 50px;
         display: flex;
     }
+
+ 
+    .center-align 
+{
+    align-items: center;
+    justify-content: stretch;
+}
     .social-links li {
         padding-bottom: 20px;
     }
+
+
 }
