@@ -22,7 +22,4 @@ const navSlide = () => {
     });
 }
 
-
-
-
 navSlide();

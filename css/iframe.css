@@ -1,6 +1,6 @@
 .iframe-container {
     overflow: hidden;
-    padding-top: 56.25%;
+    padding-top: 20%;
     position: relative;
   }
   
@@ -11,4 +11,8 @@
      position: absolute;
      top: 0;
      width: 100%;
+  }
+
+  .mobile-iframe{
+     display: none;
   }

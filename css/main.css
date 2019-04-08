@@ -2,15 +2,18 @@
 @import url("nav.css");
 @import url("backgrounds.css");
 @import url("alignment.css");
-@import url("font-color.css");
+@import url("media.css");
 @import url("nav.css");
 @import url("fonts.css");
 @import url("logo.css");
-@import url("media.css");
 @import url("iframe.css");
-
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+
+
+
+
