@@ -1352,6 +1352,7 @@
 }
 .fa-slack:before {
   content: "\f198";
+  color: #4c6ef5;
 }
 .fa-envelope-square:before {
   content: "\f199";
