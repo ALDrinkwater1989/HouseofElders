@@ -260,7 +260,7 @@
   }
 
   Carousel.prototype.cycle =  function (e) {
-    e || (this.paused = false)
+    e || (this.paused = true)
 
     this.interval && clearInterval(this.interval)
 
