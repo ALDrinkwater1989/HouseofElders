@@ -772,6 +772,15 @@ border: 2px solid #fff;
 	display:block;
 }
 
+/*Arrows
+----------------------------------*/
+
+.fa, .fas{
+	color: black;
+	padding-top: 50px;
+	font-size: 150px;
+}
+
 /* Footer
 ---------------------------------*/
 
