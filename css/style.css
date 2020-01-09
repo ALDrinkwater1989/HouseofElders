@@ -776,9 +776,9 @@ border: 2px solid #fff;
 ----------------------------------*/
 
 .fa, .fas{
-	color: black;
+	color:  #d5d5d5;
 	padding-top: 50px;
-	font-size: 150px;
+	
 }
 
 /* Footer
@@ -880,4 +880,8 @@ border: 2px solid #fff;
 .delay-12s { 
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
+}
+.price_list{
+    margin-left: 25%;
+    margin-right: 25%;
 }
